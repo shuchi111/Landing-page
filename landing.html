@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="landing.css">
+  <title>Shuchi Shukla Landing Page</title>
+</head>
+<body>
+ <nav>
+   <div class="logo"> SHUCHI</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Skills</a></li>
+       <li><a href="#">Internship</a></li>
+       <li><a href="#">Achievement</a></li>
+       <button type="button">Profile</button>
+     </ul>
+   </div>
+ </nav>
+   <!-- responsive side navbar -->
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">Skills</a>
+     <a href="#">Internships</a>
+     <a href="#">Achievement</a>
+     <a href="#"><button type="button">profile</button> </a>
+   </div>
+    <!-- Header content with banner image -->
+    <div class="row">
+        <div class="column1">
+          <h1>Women in Tech</h1>
+          <p>Let's do Revolution in Tech together!  </p>
+          <p>Intrested Tecky 🧑‍💻🏆→→</p>
+          <button>Join me</button>
+        </div>
+        <div class="column2">
+          <img src="shuchi official 2.png" alt="banner" width="100px">
+        </div>
+      </div>
+      
+      <!-- javascript to make side menu appear -->
+    <script>
+      function openNav() {
+        document.getElementById("sidenav").style.width = "50%";
+      }
+      function closeNav() {
+        document.getElementById("sidenav").style.width = "0%";
+      }
+    </script>
+    
+   </body>
+   </html>
+   
+   
